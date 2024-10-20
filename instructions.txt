@@ -1,0 +1,33 @@
+mov a, var
+mov b, var
+mov var, a
+mov var, b
+mov b, a
+mov a, b
+mov a, n
+mov b, n
+add a, b
+add b, a
+sub a, b
+inc a
+inc b
+dec a
+dec b
+
+
+
+cmp a, n
+jnz add, et
+jz addr, et
+jmp addr, et
+call addr, et
+ret
+push a
+push b
+pop a
+pop b
+
+in a, addr
+out a, addr
+nop
+halt
